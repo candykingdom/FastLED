@@ -221,6 +221,20 @@ _FL_DEFPIN( 41, 0, 1) //APA102 Data
 
 #define HAS_HARDWARE_PIN_SUPPORT 1
 
+#elif defined(CANDYKINGDOM_FIREFLY_V2)
+
+#define MAX_PIN 6
+_FL_DEFPIN( 6, 7, 0);
+
+#define HAS_HARDWARE_PIN_SUPPORT 1
+
+#elif defined(CANDYKINGDOM_FIREFLY_RFBOARD)
+
+#define MAX_PIN 6
+_FL_DEFPIN( 6, 7, 0);
+
+#define HAS_HARDWARE_PIN_SUPPORT 1
+
 #endif
 
 
